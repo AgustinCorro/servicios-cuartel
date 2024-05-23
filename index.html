@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="informacion">
+        <h1>Servicios de Emergencia</h1>
+        <br>
+        <h2>Seleccione que tipo de servicio y direccion</h2>
+        <div class="tipoDireccion">
+            <select class="tipo">
+                <option class="vivienda" name="inc_vivienda">Incendio vivienda</option>
+                <option class="accidente" value="acc_vehicular">Accidente vehicular</option>
+                <option class="rescatePersona" value="rescate_persona">Rescate de persona</option>
+                <option class="rescateAgua" value="rescate_agua">Rescate en agua</option>
+                <option class="hazmat" value="hazmat">Hazmat</option>
+                <option class="rescateCuerda" value="rescate_cuerdas">Rescate con cuerdas</option>
+                <option class="forestal" value="inc_forestal">Incendio Forestal</option>
+            </select>
+            
+            <label><u>Direccion del servicio</u></label>
+            
+            <input placeholder="Direccion" class="direccion">
+
+            <label><u>Moviles</u></label>
+            
+            <input placeholder="Moviles" class="moviles">
+        </div>
+        <div class="button">
+            <button class="enviarInfo">Enviar informacion al TV</button>
+        </div>
+    </div>
+   
+    <div class="mostrarDatos">
+        
+    </div>
+    <script src="index.js"></script>
+</body> 
+</html>
